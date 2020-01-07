@@ -1,0 +1,44 @@
+# Mac OS X files
+.DS_Store
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# build output
+.out/
+
+# exclude protobuf generated files
+*.pb.go
+
+# exclude generated files
+*.gen.go
+
+# exclude vs code files
+.vscode/
+
+# exclude golangci-lint configuration so it does not have to be updated in all repos
+.golangci.yml
+
+# exclude telepresence logs
+telepresence.log
+
+*.coverprofile
+
+*.xml
+
+# Ginkgo coverage data
+*.coverprofile
+coverage.html
+coverage.json
+
+# Gingko junit reports
+junit.xml
