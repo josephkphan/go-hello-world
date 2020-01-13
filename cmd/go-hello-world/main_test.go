@@ -20,7 +20,7 @@ var _ = DescribeTable("Fake Test",
 	func() {
 		err := PrettyPrint([]string{"fake-test"})
 
-		Expect(err).ToNot(HaveOccurred())
+		Expect(err).To(HaveOccurred())
 	},
 	Entry("No Resources"),
 )
